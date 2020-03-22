@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.formulario{
+    width: 80%;
+    background: #ccc;
+    margin:auto;
+    margin-top: 200px
+}
+
+.email{
+    text-align: center;
+    padding: 15px;
+}
+
+.password{
+    text-align: center;
+}
+
+.btn-enviar{
+    text-align: center;
+    padding: 10px;
+}
+
+.user{
+    padding: 10px;
+    width: 300px;
+    border:none;
+    font-size: 15px
+}
+.user:focus{
+    outline: none;
+}
+
+.pass{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.pass:focus{
+    outline: none;
+}
+.btn{
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
